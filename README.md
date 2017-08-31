@@ -83,6 +83,7 @@ The `vvanilla` branch is a much plainer codebase -- no config or Pantheon files 
 * Enable NewRelic in Pantheon.
 * Enable daily/weekly backups in Pantheon (if service level allows).
 * Check your "Basic site settings" (admin/config/system/site-information) and Update Manager settings (admin/reports/updates/settings).
+* **NOTE:** Use composer to get theme updates! (i.e. change the version spec for cwd_base_bootstrap when a new version is released)
 
 ## Contribution
 @todo: add instructions for updating/contributing to this starter kit
