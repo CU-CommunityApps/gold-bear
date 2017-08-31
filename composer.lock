@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "15f10bb3a4f60e55b0df91f34aaf0780",
+    "content-hash": "2c8daea65636a4345cc98853ac55525c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -359,16 +359,16 @@
         },
         {
             "name": "cubear/cwd_admin",
-            "version": "dev-master",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CU-CommunityApps/cwd_admin.git",
-                "reference": "a83aa8b67b12708c33ad456ce845f93d7bff57bd"
+                "reference": "67a60ab64b031d8fb397889e075c4b3b42ab7281"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_admin/zipball/a83aa8b67b12708c33ad456ce845f93d7bff57bd",
-                "reference": "a83aa8b67b12708c33ad456ce845f93d7bff57bd",
+                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_admin/zipball/67a60ab64b031d8fb397889e075c4b3b42ab7281",
+                "reference": "67a60ab64b031d8fb397889e075c4b3b42ab7281",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -384,20 +384,20 @@
                 }
             ],
             "description": "Light enhancements for the default Drupal admin theme; from Cornell University CIT-CD.",
-            "time": "2017-08-28T18:04:58+00:00"
+            "time": "2017-08-29T21:19:10+00:00"
         },
         {
             "name": "cubear/cwd_base_bootstrap",
-            "version": "dev-master",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CU-CommunityApps/cwd_base_bootstrap.git",
-                "reference": "c4a24a25a531a2e95b19d7319855d53a4061363f"
+                "reference": "0c1600c7d1e1e537370e739c4f44b01eedebfa33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_base_bootstrap/zipball/c4a24a25a531a2e95b19d7319855d53a4061363f",
-                "reference": "c4a24a25a531a2e95b19d7319855d53a4061363f",
+                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_base_bootstrap/zipball/0c1600c7d1e1e537370e739c4f44b01eedebfa33",
+                "reference": "0c1600c7d1e1e537370e739c4f44b01eedebfa33",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -413,7 +413,7 @@
                 }
             ],
             "description": "A lightweight Drupal 8 theme built on Bootstrap, implementing Cornell Branding and standard CWD components; from Cornell University CIT-CD.",
-            "time": "2017-08-28T18:05:10+00:00"
+            "time": "2017-08-29T21:19:38+00:00"
         },
         {
             "name": "cweagans/composer-patches",
@@ -9062,8 +9062,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cubear/cwd_admin": 20,
-        "cubear/cwd_base_bootstrap": 20,
         "drupal/core": 15
     },
     "prefer-stable": true,
