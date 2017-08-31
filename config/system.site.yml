@@ -1,11 +1,11 @@
 uuid: 9d3d02b8-7662-4a73-a5d7-285dd1c4d2c2
-name: Doggo
+name: Gold Bear
 mail: cd-drupal-l@list.cornell.edu
 slogan: 'Cool as h*ck.'
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
