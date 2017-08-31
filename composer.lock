@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c8daea65636a4345cc98853ac55525c",
+    "content-hash": "180a5822180740cc19a89922522476ca",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -388,16 +388,16 @@
         },
         {
             "name": "cubear/cwd_base_bootstrap",
-            "version": "1.0.0-alpha1",
+            "version": "1.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CU-CommunityApps/cwd_base_bootstrap.git",
-                "reference": "0c1600c7d1e1e537370e739c4f44b01eedebfa33"
+                "reference": "5df05ee0d4f77908e1aa10c160541852f72a2f88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_base_bootstrap/zipball/0c1600c7d1e1e537370e739c4f44b01eedebfa33",
-                "reference": "0c1600c7d1e1e537370e739c4f44b01eedebfa33",
+                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_base_bootstrap/zipball/5df05ee0d4f77908e1aa10c160541852f72a2f88",
+                "reference": "5df05ee0d4f77908e1aa10c160541852f72a2f88",
                 "shasum": ""
             },
             "type": "drupal-custom-theme",
@@ -413,20 +413,20 @@
                 }
             ],
             "description": "A lightweight Drupal 8 theme built on Bootstrap, implementing Cornell Branding and standard CWD components; from Cornell University CIT-CD.",
-            "time": "2017-08-29T21:19:38+00:00"
+            "time": "2017-08-31T13:41:51+00:00"
         },
         {
             "name": "cweagans/composer-patches",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cweagans/composer-patches.git",
-                "reference": "b3036f23b73570ab5d869e345277786c8eb248a9"
+                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/b3036f23b73570ab5d869e345277786c8eb248a9",
-                "reference": "b3036f23b73570ab5d869e345277786c8eb248a9",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/014e968ca2ce4342476b3f2f6779b274fff8ae9e",
+                "reference": "014e968ca2ce4342476b3f2f6779b274fff8ae9e",
                 "shasum": ""
             },
             "require": {
@@ -457,7 +457,7 @@
                 }
             ],
             "description": "Provides a way to patch Composer packages.",
-            "time": "2017-03-19T18:18:52+00:00"
+            "time": "2017-08-30T16:41:23+00:00"
         },
         {
             "name": "dflydev/dot-access-configuration",
@@ -5038,7 +5038,7 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
@@ -5285,7 +5285,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -5338,7 +5338,7 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
@@ -5457,7 +5457,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -5573,7 +5573,7 @@
         },
         {
             "name": "symfony/expression-language",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/expression-language.git",
@@ -5623,7 +5623,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -5672,7 +5672,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -6374,7 +6374,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
@@ -7075,16 +7075,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.4.5",
+            "version": "v4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "5c14cff4f955b17d20d088dec1bde61c0539ec74"
+                "reference": "74ac03d52c5e23ad8abd5c5cce4ab0e8dc1b530a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/5c14cff4f955b17d20d088dec1bde61c0539ec74",
-                "reference": "5c14cff4f955b17d20d088dec1bde61c0539ec74",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/74ac03d52c5e23ad8abd5c5cce4ab0e8dc1b530a",
+                "reference": "74ac03d52c5e23ad8abd5c5cce4ab0e8dc1b530a",
                 "shasum": ""
             },
             "require": {
@@ -7130,7 +7130,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2016-10-30T11:50:56+00:00"
+            "time": "2017-08-30T11:04:43+00:00"
         },
         {
             "name": "behat/mink",
@@ -9003,7 +9003,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v3.3.7",
+            "version": "v3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
