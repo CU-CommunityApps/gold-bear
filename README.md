@@ -126,7 +126,7 @@ _(The following is my process right now; very, very open to suggestions!)_
 1. Go to branch that tracks the main repo.
 1. Pull from the main repo to this branch:<br />
 @todo: check this, I'm guessing from memory, may be wrong command.<br />
-`git pull cubear-starter-kit` _(may be like, git fetch nameofremote, or may be something else -- check it!)_
+`git pull cubear-starter-kit` _(this definitely works, I just don't remember if there's a better way)_
 1. Check the commits that come in -- like, browse the whole log, or look for the commit(s) you know you want to add to the demo site.  Make note of the commit sha/hash details that you need.
 1. Go back to `master` and create a new branch for the changes (yep, another PR coming! get excited!):<br />
 `git checkout -b coffee-update`
