@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "180a5822180740cc19a89922522476ca",
+    "content-hash": "876eafef22cd13c87c1b919915ba71d7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3231,6 +3231,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Filtering tabs and search do not work on Drupal 8.4.x": "https://www.drupal.org/files/issues/filtering-tabs-doesnt-work-2902019-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

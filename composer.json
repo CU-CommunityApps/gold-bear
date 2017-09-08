@@ -144,6 +144,7 @@
             "drush site-install config_installer --account-mail={account-mail} --account-name={account-name} --site-mail={site-mail} --site-name={site-name} --yes"
           ],
           "export-configuration": "drush config-export --yes"
-        }
+        },
+        "patches-file": "composer.patches.json"
     }
 }
