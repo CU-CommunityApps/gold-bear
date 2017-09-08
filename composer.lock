@@ -2100,16 +2100,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.4.0-beta1",
+            "version": "8.4.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "48a043dc25c4b284fe88dff26f2f48360f5d87c8"
+                "reference": "c544a05049e028f61d8c85c4cfc5734e6b3863b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/48a043dc25c4b284fe88dff26f2f48360f5d87c8",
-                "reference": "48a043dc25c4b284fe88dff26f2f48360f5d87c8",
+                "url": "https://api.github.com/repos/drupal/core/zipball/c544a05049e028f61d8c85c4cfc5734e6b3863b2",
+                "reference": "c544a05049e028f61d8c85c4cfc5734e6b3863b2",
                 "shasum": ""
             },
             "require": {
@@ -2220,7 +2220,6 @@
                 "drupal/minimal": "self.version",
                 "drupal/node": "self.version",
                 "drupal/options": "self.version",
-                "drupal/outside_in": "self.version",
                 "drupal/page_cache": "self.version",
                 "drupal/path": "self.version",
                 "drupal/quickedit": "self.version",
@@ -2229,6 +2228,7 @@
                 "drupal/rest": "self.version",
                 "drupal/search": "self.version",
                 "drupal/serialization": "self.version",
+                "drupal/settings_tray": "self.version",
                 "drupal/seven": "self.version",
                 "drupal/shortcut": "self.version",
                 "drupal/simpletest": "self.version",
@@ -2283,7 +2283,7 @@
                 "GPL-2.0+"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-08-17T17:21:44+00:00"
+            "time": "2017-09-06T21:12:42+00:00"
         },
         {
             "name": "drupal/ctools",
