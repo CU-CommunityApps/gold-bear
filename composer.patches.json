@@ -4,7 +4,7 @@
       "Filtering tabs and search do not work on Drupal 8.4.x": "https://www.drupal.org/files/issues/filtering-tabs-doesnt-work-2902019-4.patch"
     },
     "drupal/core": {
-      "(Drupal\Core\Entity\*) Neither EntityViewMode nor EntityDisplayModeBase extend Entity::urlRouteParameters() to provide entity_type_id param for entity.entity_view_mode.add_form route": "https://www.drupal.org/files/issues/2907654-3-display-mode-url-route-parameters.patch"
+      "Neither EntityViewMode nor EntityDisplayModeBase extend Entity::urlRouteParameters() to provide entity_type_id param for entity.entity_view_mode.add_form route": "https://www.drupal.org/files/issues/2907654-3-display-mode-url-route-parameters.patch"
     }
   }
 }
