@@ -2262,6 +2262,11 @@
                 "symfony/phpunit-bridge": "~3.2.8"
             },
             "type": "drupal-core",
+            "extra": {
+                "patches_applied": {
+                    "Provide entity_type_id param for entity.entity_view_mode.add_form route": "https://www.drupal.org/files/issues/2907654-3-display-mode-url-route-parameters.patch"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Drupal\\Core\\": "lib/Drupal/Core",
