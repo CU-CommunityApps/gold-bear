@@ -68,7 +68,7 @@
         "drupal/override_node_options": "^2.1",
         "drupal/paragraphs": "^1.1",
         "drupal/pathauto": "^1.0",
-        "drupal/redis": "1.0-beta1",
+        "drupal/redis": "^1.0.0-rc2",
         "drupal/simplesamlphp_auth": "3.0-rc2",
         "drupal/token": "^1.0",
         "drupal/twig_tweak": "^1.8",
