@@ -80,6 +80,7 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
+        "php": ">=7.1.0",
         "mikey179/vfsstream": "~1.2",
         "behat/behat": "3.*",
         "behat/mink": "~1.7",
