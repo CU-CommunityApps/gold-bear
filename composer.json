@@ -16,19 +16,19 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-          "type": "package",
-          "package": {
-            "name": "harvesthq/chosen",
-            "version": "1.7.0",
-            "type": "drupal-library",
-            "dist": {
-              "url": "https://github.com/harvesthq/chosen/releases/download/v1.7.0/chosen_v1.7.0.zip",
-              "type": "zip"
-            },
-            "require": {
-                "composer/installers": "^1.2.0"
+            "type": "package",
+            "package": {
+                "name": "harvesthq/chosen",
+                "version": "1.7.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/harvesthq/chosen/releases/download/v1.7.0/chosen_v1.7.0.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                }
             }
-          }
         }
     ],
     "require": {
@@ -100,9 +100,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-      "optimize-autoloader": true,
-      "preferred-install": "dist",
-      "sort-packages": true
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "autoload": {
         "classmap": [
@@ -141,10 +141,10 @@
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "build-env": {
-          "install-cms": [
-            "drush site-install config_installer --account-mail={account-mail} --account-name={account-name} --site-mail={site-mail} --site-name={site-name} --yes"
-          ],
-          "export-configuration": "drush config-export --yes"
+            "install-cms": [
+                "drush site-install config_installer --account-mail={account-mail} --account-name={account-name} --site-mail={site-mail} --site-name={site-name} --yes"
+            ],
+            "export-configuration": "drush config-export --yes"
         },
         "patches-file": "composer.patches.json"
     }
