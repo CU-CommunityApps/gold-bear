@@ -1,7 +1,4 @@
 {
   "patches": {
-    "drupal/core": {
-      "Neither EntityViewMode nor EntityDisplayModeBase extend Entity::urlRouteParameters() to provide entity_type_id param for entity.entity_view_mode.add_form route": "https://www.drupal.org/files/issues/2907654-3-display-mode-url-route-parameters.patch"
-    }
   }
 }
