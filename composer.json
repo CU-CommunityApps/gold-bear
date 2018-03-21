@@ -111,7 +111,7 @@
             "@prepare-for-pantheon",
             "composer install --optimize-autoloader"
         ],
-        "lint": "find web/modules/custom web/themes/custom -name '*.php' -print -D exec -exec php -l {} \\;",
+        "lint": "find -D exec web/modules/custom web/themes/custom -name '*.php' -print -exec php -l {} \\;",
         "code-sniff": "echo 'No code sniff step defined.'",
         "unit-test": "echo 'No unit test step defined.'",
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
