@@ -78,18 +78,18 @@ Feature: Content
     Then I should see "Tag one"
     And I should see "Tag two"
 
-  @api
-  Scenario: Create nodes with specific authorship
-    Given users:
-    | name     | mail            | status |
-    | Joe User | joe@example.com | 1      |
-    And "basic_page" content:
-    | title       | author   | promote |
-    | Page by Joe | Joe User | 1       |
-    When I am logged in as a user with the "administrator" role
-    And I am on the homepage
-    Then I should see the link "Page by Joe"
-    When I follow "Page by Joe"
-    Then I should see the text "Page by Joe"
-    # Todo: The node is created by 'Anonymous', but it should be created by 'Joe User'
-    # And I should see the link "Joe User"
+#  @api
+#  Scenario: Create nodes with specific authorship
+#    Given users:
+#    | name     | mail            | status |
+#    | Joe User | joe@example.com | 1      |
+#    And "basic_page" content:
+#    | title       | author   | promote |
+#    | Page by Joe | Joe User | 1       |
+#    When I am logged in as a user with the "administrator" role
+#    And I am on the homepage
+#    Then I should see the link "Page by Joe"
+#    When I follow "Page by Joe"
+#    Then I should see the text "Page by Joe"
+#    # Todo: The node is created by 'Anonymous', but it should be created by 'Joe User'
+#    # And I should see the link "Joe User"
