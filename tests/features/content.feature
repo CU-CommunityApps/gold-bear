@@ -55,7 +55,7 @@ Feature: Content
   Scenario: Login as a user created during this scenario
     Given users:
     | name      | status | mail             |
-    | Test user |      1 | test@example.com |
+    | Test user | 1      | test@example.com |
     When I am logged in as "Test user"
     Then I should see the link "Log out"
 
@@ -84,8 +84,8 @@ Feature: Content
     | name     | mail            | status |
     | Joe User | joe@example.com | 1      |
     And "basic_page" content:
-    | title          | author   | promote |
-    | Page by Joe    | Joe User | 1       |
+    | title       | author   | promote |
+    | Page by Joe | Joe User | 1       |
     When I am logged in as a user with the "administrator" role
     And I am on the homepage
     Then I should see the link "Page by Joe"
