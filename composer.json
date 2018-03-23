@@ -147,6 +147,7 @@
             ],
             "export-configuration": "drush config-export --yes"
         },
+        "patches-file": "composer.patches.json",
         "drupal-scaffold": {
             "source": "https://raw.githubusercontent.com/pantheon-systems/drops-8/{version}/{path}",
             "includes": [
@@ -158,8 +159,7 @@
                 ".eslintignore",
                 ".eslintrc.json",
                 "web.config"
-            ],
-            "patches-file": "composer.patches.json"
+            ]
         }
     },
     "config": {
