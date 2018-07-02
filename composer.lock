@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "51695b62498f7994212f4cf3cbd9a957",
+    "content-hash": "cc1a8dd708ae076094f9672776f197a8",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -388,6 +388,35 @@
             ],
             "description": "Light enhancements for the default Drupal admin theme; from Cornell University CIT-CD.",
             "time": "2017-08-29T21:19:10+00:00"
+        },
+        {
+            "name": "cubear/cwd_base",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CU-CommunityApps/cwd_base.git",
+                "reference": "a1ee312921d78953d05af13f64343de657013796"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CU-CommunityApps/cwd_base/zipball/a1ee312921d78953d05af13f64343de657013796",
+                "reference": "a1ee312921d78953d05af13f64343de657013796",
+                "shasum": ""
+            },
+            "type": "drupal-custom-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Adinolfi (ama39)",
+                    "homepage": "https://github.com/ama39",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "A lightweight Drupal 8 theme, implementing Cornell Branding and standard CWD components; from Cornell University CIT-CD.",
+            "time": "2018-07-02T16:46:41+00:00"
         },
         {
             "name": "cubear/cwd_base_bootstrap",
